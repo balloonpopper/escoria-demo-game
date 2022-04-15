@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=2]
+[gd_scene load_steps=122 format=2]
 
 [ext_resource path="res://addons/escoria-core/game/core-scripts/esc_terrain.gd" type="Script" id=1]
 [ext_resource path="res://addons/escoria-core/game/core-scripts/esc_background.gd" type="Script" id=2]
@@ -263,6 +263,2436 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id=11]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=16]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=17]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=18]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=19]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=20]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=21]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=22]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=23]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=24]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=25]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=26]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=27]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=28]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=29]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=30]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=31]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=32]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=33]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=34]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=35]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=36]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=37]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=38]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=39]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=40]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=41]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=42]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=43]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=44]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=45]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=46]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=47]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=48]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=49]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=50]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=51]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=52]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=53]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=54]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=55]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=56]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=57]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=58]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=59]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=60]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=61]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=62]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=63]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=64]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=65]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=66]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=67]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=68]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=69]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=70]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=71]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=72]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=73]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=74]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=75]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=76]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=77]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=78]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=79]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=80]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=81]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=82]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=83]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=84]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=85]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=86]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=87]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=88]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=89]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=90]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=91]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=92]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=93]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=94]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=95]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=96]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=97]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=98]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=99]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=100]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=101]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=102]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=103]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("opened_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("closed_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=104]
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("closed_door:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("opened_door:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=105]
 length = 0.1
 tracks/0/type = "value"
 tracks/0/path = NodePath("opened_door:visible")
@@ -598,6 +3028,1896 @@ script = ExtResource( 12 )
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left"]
 anims/close_door = SubResource( 10 )
 anims/open_door = SubResource( 11 )
+
+[node name="r9_closet_left2" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -98, 1 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left2"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left2"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left2"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left2"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left2"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left2" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left2/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left2"]
+anims/close_door = SubResource( 16 )
+anims/open_door = SubResource( 17 )
+
+[node name="r9_closet_left3" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -197, 3 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left3"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left3"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left3"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left3"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left3"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left3" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left3/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left3"]
+anims/close_door = SubResource( 18 )
+anims/open_door = SubResource( 19 )
+
+[node name="r9_closet_left4" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 299, -3 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left4"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left4"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left4"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left4"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left4"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left4" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left4/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left4"]
+anims/close_door = SubResource( 20 )
+anims/open_door = SubResource( 21 )
+
+[node name="r9_closet_left5" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 331, -3 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left5"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left5"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left5"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left5"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left5"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left5" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left5/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left5"]
+anims/close_door = SubResource( 22 )
+anims/open_door = SubResource( 23 )
+
+[node name="r9_closet_left6" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -152, 3 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left6"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left6"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left6"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left6"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left6"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left6" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left6/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left6"]
+anims/close_door = SubResource( 24 )
+anims/open_door = SubResource( 25 )
+
+[node name="r9_closet_left7" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -250, 3 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left7"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left7"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left7"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left7"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left7"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left7" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left7/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left7"]
+anims/close_door = SubResource( 26 )
+anims/open_door = SubResource( 27 )
+
+[node name="r9_closet_left8" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -298, 3 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left8"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left8"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left8"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left8"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left8"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left8" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left8/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left8"]
+anims/close_door = SubResource( 28 )
+anims/open_door = SubResource( 29 )
+
+[node name="r9_closet_left9" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -234, 103 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left9"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left9"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left9"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left9"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left9"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left9" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left9/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left9"]
+anims/close_door = SubResource( 30 )
+anims/open_door = SubResource( 31 )
+
+[node name="r9_closet_left10" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -187, 103 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left10"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left10"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left10"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left10"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left10"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left10" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left10/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left10"]
+anims/close_door = SubResource( 32 )
+anims/open_door = SubResource( 33 )
+
+[node name="r9_closet_left11" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -130, 104 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left11"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left11"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left11"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left11"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left11"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left11" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left11/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left11"]
+anims/close_door = SubResource( 34 )
+anims/open_door = SubResource( 35 )
+
+[node name="r9_closet_left12" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -76, 95 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left12"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left12"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left12"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left12"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left12"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left12" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left12/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left12"]
+anims/close_door = SubResource( 36 )
+anims/open_door = SubResource( 37 )
+
+[node name="r9_closet_left13" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -26, 99 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left13"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left13"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left13"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left13"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left13"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left13" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left13/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left13"]
+anims/close_door = SubResource( 38 )
+anims/open_door = SubResource( 39 )
+
+[node name="r9_closet_left14" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 26, 105 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left14"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left14"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left14"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left14"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left14"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left14" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left14/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left14"]
+anims/close_door = SubResource( 40 )
+anims/open_door = SubResource( 41 )
+
+[node name="r9_closet_left15" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 94, 117 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left15"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left15"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left15"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left15"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left15"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left15" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left15/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left15"]
+anims/close_door = SubResource( 42 )
+anims/open_door = SubResource( 43 )
+
+[node name="r9_closet_left16" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 168, 106 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left16"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left16"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left16"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left16"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left16"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left16" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left16/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left16"]
+anims/close_door = SubResource( 44 )
+anims/open_door = SubResource( 45 )
+
+[node name="r9_closet_left17" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 221, 113 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left17"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left17"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left17"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left17"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left17"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left17" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left17/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left17"]
+anims/close_door = SubResource( 46 )
+anims/open_door = SubResource( 47 )
+
+[node name="r9_closet_left18" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 271, 107 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left18"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left18"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left18"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left18"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left18"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left18" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left18/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left18"]
+anims/close_door = SubResource( 48 )
+anims/open_door = SubResource( 49 )
+
+[node name="r9_closet_left19" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 320, 105 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left19"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left19"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left19"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left19"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left19"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left19" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left19/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left19"]
+anims/close_door = SubResource( 50 )
+anims/open_door = SubResource( 51 )
+
+[node name="r9_closet_left20" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 361, 102 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left20"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left20"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left20"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left20"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left20"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left20" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left20/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left20"]
+anims/close_door = SubResource( 52 )
+anims/open_door = SubResource( 53 )
+
+[node name="r9_closet_left21" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -48, -85 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left21"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left21"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left21"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left21"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left21"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left21" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left21/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left21"]
+anims/close_door = SubResource( 54 )
+anims/open_door = SubResource( 55 )
+
+[node name="r9_closet_left22" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 28, -81 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left22"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left22"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left22"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left22"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left22"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left22" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left22/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left22"]
+anims/close_door = SubResource( 56 )
+anims/open_door = SubResource( 57 )
+
+[node name="r9_closet_left23" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 103, -81 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left23"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left23"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left23"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left23"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left23"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left23" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left23/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left23"]
+anims/close_door = SubResource( 58 )
+anims/open_door = SubResource( 59 )
+
+[node name="r9_closet_left24" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -84, -51 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left24"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left24"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left24"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left24"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left24"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left24" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left24/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left24"]
+anims/close_door = SubResource( 60 )
+anims/open_door = SubResource( 61 )
+
+[node name="r9_closet_left25" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -181, -50 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left25"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left25"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left25"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left25"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left25"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left25" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left25/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left25"]
+anims/close_door = SubResource( 62 )
+anims/open_door = SubResource( 63 )
+
+[node name="r9_closet_left26" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -280, -48 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left26"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left26"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left26"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left26"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left26"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left26" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left26/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left26"]
+anims/close_door = SubResource( 64 )
+anims/open_door = SubResource( 65 )
+
+[node name="r9_closet_left27" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 216, -54 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left27"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left27"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left27"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left27"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left27"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left27" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left27/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left27"]
+anims/close_door = SubResource( 66 )
+anims/open_door = SubResource( 67 )
+
+[node name="r9_closet_left28" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 248, -54 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left28"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left28"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left28"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left28"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left28"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left28" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left28/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left28"]
+anims/close_door = SubResource( 68 )
+anims/open_door = SubResource( 69 )
+
+[node name="r9_closet_left29" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -235, -48 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left29"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left29"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left29"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left29"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left29"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left29" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left29/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left29"]
+anims/close_door = SubResource( 70 )
+anims/open_door = SubResource( 71 )
+
+[node name="r9_closet_left30" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -333, -48 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left30"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left30"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left30"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left30"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left30"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left30" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left30/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left30"]
+anims/close_door = SubResource( 72 )
+anims/open_door = SubResource( 73 )
+
+[node name="r9_closet_left31" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -381, -48 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left31"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left31"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left31"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left31"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left31"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left31" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left31/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left31"]
+anims/close_door = SubResource( 74 )
+anims/open_door = SubResource( 75 )
+
+[node name="r9_closet_left32" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -317, 52 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left32"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left32"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left32"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left32"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left32"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left32" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left32/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left32"]
+anims/close_door = SubResource( 76 )
+anims/open_door = SubResource( 77 )
+
+[node name="r9_closet_left33" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -270, 52 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left33"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left33"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left33"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left33"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left33"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left33" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left33/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left33"]
+anims/close_door = SubResource( 78 )
+anims/open_door = SubResource( 79 )
+
+[node name="r9_closet_left34" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -213, 53 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left34"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left34"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left34"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left34"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left34"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left34" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left34/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left34"]
+anims/close_door = SubResource( 80 )
+anims/open_door = SubResource( 81 )
+
+[node name="r9_closet_left35" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -159, 44 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left35"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left35"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left35"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left35"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left35"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left35" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left35/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left35"]
+anims/close_door = SubResource( 82 )
+anims/open_door = SubResource( 83 )
+
+[node name="r9_closet_left36" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -109, 48 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left36"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left36"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left36"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left36"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left36"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left36" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left36/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left36"]
+anims/close_door = SubResource( 84 )
+anims/open_door = SubResource( 85 )
+
+[node name="r9_closet_left37" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -57, 54 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left37"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left37"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left37"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left37"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left37"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left37" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left37/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left37"]
+anims/close_door = SubResource( 86 )
+anims/open_door = SubResource( 87 )
+
+[node name="r9_closet_left38" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 11, 66 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left38"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left38"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left38"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left38"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left38"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left38" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left38/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left38"]
+anims/close_door = SubResource( 88 )
+anims/open_door = SubResource( 89 )
+
+[node name="r9_closet_left39" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 85, 55 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left39"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left39"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left39"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left39"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left39"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left39" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left39/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left39"]
+anims/close_door = SubResource( 90 )
+anims/open_door = SubResource( 91 )
+
+[node name="r9_closet_left40" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 138, 62 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left40"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left40"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left40"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left40"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left40"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left40" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left40/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left40"]
+anims/close_door = SubResource( 92 )
+anims/open_door = SubResource( 93 )
+
+[node name="r9_closet_left41" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 188, 56 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left41"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left41"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left41"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left41"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left41"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left41" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left41/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left41"]
+anims/close_door = SubResource( 94 )
+anims/open_door = SubResource( 95 )
+
+[node name="r9_closet_left42" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 237, 54 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left42"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left42"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left42"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left42"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left42"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left42" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left42/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left42"]
+anims/close_door = SubResource( 96 )
+anims/open_door = SubResource( 97 )
+
+[node name="r9_closet_left43" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 278, 51 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left43"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left43"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left43"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left43"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left43"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left43" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left43/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left43"]
+anims/close_door = SubResource( 98 )
+anims/open_door = SubResource( 99 )
+
+[node name="r9_closet_left44" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -131, -136 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left44"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left44"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left44"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left44"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left44"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left44" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left44/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left44"]
+anims/close_door = SubResource( 100 )
+anims/open_door = SubResource( 101 )
+
+[node name="r9_closet_left45" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( -55, -132 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left45"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left45"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left45"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left45"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left45"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left45" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left45/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left45"]
+anims/close_door = SubResource( 102 )
+anims/open_door = SubResource( 103 )
+
+[node name="r9_closet_left46" type="Area2D" parent="Hotspots"]
+pause_mode = 1
+position = Vector2( 20, -132 )
+script = ExtResource( 7 )
+global_id = "r9_closet_left46"
+esc_script = "res://game/rooms/room09/esc/closet_left.esc"
+tooltip_name = "closet"
+default_action = "open"
+inventory_texture = ExtResource( 14 )
+dialog_color = Color( 1, 1, 1, 1 )
+animations = null
+
+[node name="closed_door" type="Sprite" parent="Hotspots/r9_closet_left46"]
+visible = false
+position = Vector2( 570, 248 )
+texture = ExtResource( 14 )
+
+[node name="opened_door" type="Sprite" parent="Hotspots/r9_closet_left46"]
+position = Vector2( 525, 273 )
+texture = ExtResource( 8 )
+
+[node name="ESCLocation" type="Position2D" parent="Hotspots/r9_closet_left46"]
+position = Vector2( 571, 447 )
+script = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspots/r9_closet_left46"]
+position = Vector2( 570, 248.5 )
+shape = SubResource( 9 )
+
+[node name="bottle_left" parent="Hotspots/r9_closet_left46" instance=ExtResource( 11 )]
+position = Vector2( 598, 162 )
+global_id = "r9_bottle_left"
+dont_apply_terrain_scaling = true
+
+[node name="Position2D" type="Position2D" parent="Hotspots/r9_closet_left46/bottle_left"]
+position = Vector2( -27, 285 )
+script = ExtResource( 12 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Hotspots/r9_closet_left46"]
+anims/close_door = SubResource( 104 )
+anims/open_door = SubResource( 105 )
 
 [node name="r9_closet_middle" type="Area2D" parent="Hotspots"]
 pause_mode = 1

@@ -14,7 +14,51 @@ set_active r9_bottle false
 set_state r9_closet_left close_door
 set_state r9_closet_middle close_door
 set_state r9_closet_right close_door
-
+set_state r9_closet_left2 close_door
+set_state r9_closet_left3 close_door
+set_state r9_closet_left4 close_door
+set_state r9_closet_left5 close_door
+set_state r9_closet_left6 close_door
+set_state r9_closet_left7 close_door
+set_state r9_closet_left8 close_door
+set_state r9_closet_left9 close_door
+set_state r9_closet_left10 close_door
+set_state r9_closet_left11 close_door
+set_state r9_closet_left12 close_door
+set_state r9_closet_left13 close_door
+set_state r9_closet_left14 close_door
+set_state r9_closet_left15 close_door
+set_state r9_closet_left16 close_door
+set_state r9_closet_left17 close_door
+set_state r9_closet_left18 close_door
+set_state r9_closet_left19 close_door
+set_state r9_closet_left20 close_door
+set_state r9_closet_left21 close_door
+set_state r9_closet_left22 close_door
+set_state r9_closet_left23 close_door
+set_state r9_closet_left24 close_door
+set_state r9_closet_left25 close_door
+set_state r9_closet_left26 close_door
+set_state r9_closet_left27 close_door
+set_state r9_closet_left28 close_door
+set_state r9_closet_left29 close_door
+set_state r9_closet_left30 close_door
+set_state r9_closet_left31 close_door
+set_state r9_closet_left32 close_door
+set_state r9_closet_left33 close_door
+set_state r9_closet_left34 close_door
+set_state r9_closet_left35 close_door
+set_state r9_closet_left36 close_door
+set_state r9_closet_left37 close_door
+set_state r9_closet_left38 close_door
+set_state r9_closet_left39 close_door
+set_state r9_closet_left40 close_door
+set_state r9_closet_left41 close_door
+set_state r9_closet_left42 close_door
+set_state r9_closet_left43 close_door
+set_state r9_closet_left44 close_door
+set_state r9_closet_left45 close_door
+set_state r9_closet_left46 close_door
 > [room09_visited]
 	> [r9_puzzle_complete]
 		# If the player has been here before and completed the puzzle
