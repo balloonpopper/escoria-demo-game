@@ -16,12 +16,12 @@
 script/source = "extends Node2D
 
 # Currently an empty array is passed as a parameter to the function. No parameters are required.
-func enable_door(_notused):
+func enable_door(_ignored):
 	# Enable the collision polygon on the door so it is recognised as an ESCItem
 	$\"../CollisionPolygon2D\".disabled = false
 
 # Currently an empty array is passed as a parameter to the function. No parameters are required.
-func disable_door(_notused):
+func disable_door(_ignored):
 	# Enable the collision polygon on the door so it is recognised as an ESCItem
 	$\"../CollisionPolygon2D\".disabled = true
 "

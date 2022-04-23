@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://addons/escoria-core/game/core-scripts/esc_terrain.gd" type="Script" id=1]
 [ext_resource path="res://addons/escoria-core/game/core-scripts/esc_background.gd" type="Script" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://game/rooms/room01/room1background.png" type="Texture" id=8]
 [ext_resource path="res://game/rooms/room01/art2.png" type="Texture" id=9]
 [ext_resource path="res://game/rooms/room01/art1.png" type="Texture" id=10]
+[ext_resource path="res://game/items/inventory/r5_wrench.tscn" type="PackedScene" id=11]
+[ext_resource path="res://game/characters/worker/worker.tscn" type="PackedScene" id=12]
 
 [sub_resource type="NavigationPolygon" id=1]
 vertices = PoolVector2Array( 125, 357, 1170, 355, 1277, 417, 1279, 550, -1, 548, 0, 449 )
@@ -33,9 +35,6 @@ margin_bottom = 40.0
 mouse_filter = 2
 texture = ExtResource( 8 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="advice2" type="Label" parent="ESCBackground"]
 anchor_right = 0.023274
@@ -201,7 +200,7 @@ global_id = "r1_destination_point"
 interaction_direction = 4
 
 [node name="set_angle_by_esc" type="Position2D" parent="."]
-position = Vector2( 934.11, 502.959 )
+position = Vector2( 938, 504 )
 script = ExtResource( 7 )
 global_id = "r1_destination_point2"
 player_orients_on_arrival = false
@@ -211,3 +210,8 @@ position = Vector2( 660.468, 381.489 )
 script = ExtResource( 7 )
 global_id = "r1_destination_point3"
 player_orients_on_arrival = false
+
+[node name="wrench" parent="." instance=ExtResource( 11 )]
+
+[node name="worker" parent="." instance=ExtResource( 12 )]
+position = Vector2( 182, 399 )

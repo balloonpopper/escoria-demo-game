@@ -78,8 +78,13 @@ func run(command_params: Array) -> int:
 	var object = escoria.object_manager.get_object(
 		command_params[0]
 	)
-	object.node.get_node(command_params[1]).call(
-		command_params[2],
-		command_params[3]
-	)
+	if command_params[3].empty():
+		object.node.get_node(command_params[1]).call(
+			command_params[2]
+		)
+	else:
+		object.node.get_node(command_params[1]).call(
+			command_params[2],
+			command_params[3]
+		)
 	return ESCExecution.RC_OK
